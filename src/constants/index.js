@@ -1,79 +1,43 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Cloud Infrastructure & Support",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Hands-on AWS operations: EC2, S3, IAM, and VPC troubleshooting; incident response; and infrastructure health monitoring with CloudWatch, Datadog, and Splunk.",
     items: [
-      {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
-      },
-      {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
-      },
-      {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
-      },
+      { title: "AWS Core Services", description: "EC2, S3, IAM, VPC networking & security" },
+      { title: "Container Support", description: "ECS/EKS, task & service troubleshooting" },
+      { title: "Cost & Security Hygiene", description: "Tagging standards, guardrails, least-privilege IAM" },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "DevOps & Automation",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Automating deployment pipelines, improving reliability, and removing repetitive tasks with Infrastructure as Code and scripting.",
     items: [
-      {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
-      },
-      {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
-      },
-      {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
+      { title: "CI/CD Pipelines", description: "GitHub Actions, AWS CodePipeline, Jenkins" },
+      { title: "Infrastructure as Code", description: "Terraform, modular & versioned configurations" },
+      { title: "Scripting", description: "Bash and Python for automation and tooling" },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Monitoring & Reliability",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Proactive infrastructure health checks and alerting to detect issues early and minimize downtime.",
     items: [
-      {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
-      },
-      {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
-      },
-      {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
-      },
+      { title: "Monitoring", description: "CloudWatch, Datadog, Splunk, Prometheus basics" },
+      { title: "Logging & Alerting", description: "Structured logs, metrics, incident response" },
+      { title: "Ops Readiness", description: "Runbooks, escalation, postmortems" },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "IT Support Foundation",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Enterprise support background that built my skills in high-pressure troubleshooting and fast resolutions.",
     items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
-      },
+      { title: "User Access Management", description: "Active Directory, O365, MFA, VPN" },
+      { title: "System Support", description: "Remote tools, ticketing via ServiceNow & Jira" },
+      { title: "Process Improvement", description: "Runbook updates, repeat issue prevention" },
     ],
   },
 ];

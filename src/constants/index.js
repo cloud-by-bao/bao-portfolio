@@ -127,4 +127,14 @@ export const socials = [
     Icon: FaGithub, // component reference
   },
 ];
+/* =========================
+   Certifications
+   ========================= */
+export const certifications = [
+  { id: 1, name: "AWS Solutions Architect – Associate" },
+  { id: 2, name: "AWS Certified Cloud Practitioner" },
+  { id: 3, name: "HashiCorp Terraform Associate" },
+  { id: 4, name: "Microsoft Azure Fundamentals (AZ-900)" },
+  { id: 5, name: "Linux LPI / LPIC-1" }
+];
 
